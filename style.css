@@ -1,0 +1,476 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#greeting, #tech-stack, #projects, #contact, #home {
+    scroll-margin-top: 40px;
+}
+
+.contacts-info > p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    padding-top: 41px;
+    padding-bottom: 60px;
+    width: 100%;
+    max-width: 1204px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    width: 65%;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    flex-grow: 8;
+}
+
+.social-icon {
+    margin-bottom: 20px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-icon, .contacts > img {
+    width: 97px;
+    height: 59px;
+}
+
+.greeting {
+    margin-top: 220px;
+    margin-bottom: 348px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info > p {
+    font-size: 58px;
+    color: rgba(66, 68, 110, 1);
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1px;
+    text-align: left;
+}
+
+.gradient-text {
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #13B0F5 -0.08%, #CA24B4 155.6%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #42446E;
+}
+
+.man {
+    width: 349px;
+    height: 349px;
+}
+
+.menu > a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.projects {
+    margin-bottom: 96px;
+}
+
+.my-tech-stack, .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-tech-stack > h1, .projects > h1 {
+    color: rgba(66, 68, 110, 1);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 49px;
+}
+
+.my-tech-stack > p, .projects > p {
+    color: rgba(102, 102, 102, 1);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.stack-icons {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 78px 10px;
+    margin-top: 140px;
+    margin-bottom: 214px;
+}
+
+.stack-icons > img {
+    justify-self: center;
+}
+
+.projects-item {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 62px 47px;
+    padding-left: 15px;
+}
+
+.projects-item > div{
+    justify-self: center;
+}
+
+.post {
+    width: 373px;
+    height: 567px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.post > img {
+    width: 373px;
+    height: 260px;
+}
+
+.post-links {
+    display: flex;
+}
+
+.post-links-content:first-child {
+    margin-right: 48px;
+}
+
+.link-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.git-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.post-content {
+    width: 314px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 307px;
+    margin-top: 27px;
+    margin-bottom: 25px;
+}
+
+.post-content > h1 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.post-description {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: left;
+}
+
+.tech-stack-text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: left;
+    color: rgba(66, 68, 110, 1);
+}
+
+.tech-stack-text > span, .post-links-content > a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.post-links-content {
+    display: flex;
+    align-items: center;
+}
+
+.post-links-content > a {
+    text-decoration: underline;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+
+}
+
+.contacts {
+    margin-top: 203px;
+    margin-bottom: 42px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-right {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts-info {
+    display: flex;
+    flex-grow: 5;
+    justify-content: space-around;
+}
+
+.contacts-icon {
+    display: flex;
+    flex-grow: 1;
+    width: 130px;
+}
+
+.contacts-icon > img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.phone {
+    width: 169px;
+    color: rgba(66, 68, 110, 1);
+
+}
+
+.email {
+    width: 237px;
+    color: rgba(66, 68, 110, 1);
+
+}
+
+hr {
+    border: 2px solid rgba(102, 102, 102, 0.3);
+    max-width: 1209px;
+}
+
+footer {
+    margin-top: 53px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-footer {
+    width: 554px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+
+.menu-footer > a {
+    font-family: "DM Sans", sans-serif;
+    color: rgba(66, 68, 110, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    text-decoration: none;
+}
+
+footer > p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(102, 102, 102, 1);
+}
+
+.pavan-mg {
+    background: linear-gradient(90deg, #13B0F5 -243.08%, #CA24B4 282.4%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.love {
+    color: #ac2f9b;
+}
+
+.coffee {
+    color:#CA24B4;
+}
+
+@media (max-width: 1200px) {
+    .projects-item {
+        padding-left: 0px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contacts-right, .header-right {
+        width: 80%;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-footer {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-item {
+        grid-template-columns: repeat(1, 1fr);
+    } 
+    .stack-icons {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    header, .header-right, .menu, .greeting, .contacts-info, .menu-footer {
+        flex-direction: column;
+        align-content: center;
+    }
+    .contacts-info > p{
+        text-align: center;
+        width: 100%;
+    }
+    .contacts > img {
+        margin-left: 20px;
+    }
+    main {
+        padding: 0px;
+    }
+    header {
+        justify-content: center;
+    }
+    .logo-icon {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+    .social-icon {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+    }
+    .menu > a, .menu-footer > a {
+        font-size: 40px;
+        text-align: center;
+        line-height: 50px;
+    }
+    .greeting, .stack-icons {
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+    .projects {
+        margin-bottom: 40px;
+    }
+    .contacts {
+        margin-top: 100px;
+    }
+    footer > p {
+        order: -1;
+    }
+    .menu-footer {
+        width: 100%;
+    }
+    .man {
+        margin: 15px;
+    }
+    .my-tech-stack > p {
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu {
+        margin-top: 70px;
+    }
+    .post, .post > img {
+        width: 300px; 
+    }
+    .menu > a, .menu-footer > a {
+        font-size: 25px;
+        text-align: center;
+        line-height: 50px;
+    }
+    .stack-icons > img {
+        width: 50px;
+        height: 50px;
+    }
+    .contacts, .contacts-right {
+        flex-direction: column;
+        align-items: center;
+    }
+    .man {
+        width: 300px; 
+        height: 300px;
+    }
+    .info > p {
+        font-size: 36px;
+        margin-left: 10px;
+    }
+    .my-tech-stack > h1, .projects > h1 {
+        font-size: 36px;
+    } 
+    .my-tech-stack > p, .projects > p {
+        font-size: 28px;
+    } 
+    .contacts > img {
+        margin: 0px;
+    }
+    .contacts {
+        margin-top: 80px;
+        margin-bottom: 20px;
+        height: 200px;
+    }
+    .contacts-info {
+        margin-bottom: 20px;
+    }
+    .projects-item {
+        gap: 42px;
+    }
+    footer {
+        margin-top: 30px;
+    }
+    .my-tech-stack, .projects {
+        padding: 0px 10px;
+    }
+}
